@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="portofolio/css/main.css">
+</head>
+    <body>
+        <aside>
+            <figure>
+                <div id="avatar"></div>
+                <figcaption>Elian Richard</figcaption>
+            </figure>
+            <img src="portofolio/images/menu.svg">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="/divisions">KAPA</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <h1>I'm a designer at things</h1>
+            <p>Hello! Welcome to my portfolio. Feel free to look around</p>
+
+            <a href="#" class="cta">my portfolio</a>
+        </main>
+        <script>
+        
+            (function() {
+                var menu = document.querySelector('ul'),
+                    menulink = document.querySelector('img');
+                
+                menulink.addEventListener('click', function(e) {
+                    menu.classList.toggle('active');
+                    e.preventDefault();
+                });
+            })();
+        
+        </script>
+    </body>
+</html>

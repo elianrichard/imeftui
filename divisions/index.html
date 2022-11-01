@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Divisions</title>
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js'></script> 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src='./js/jquery.fullpage.min.js'></script> 
+</head>
+<body>
+    <div id="fullpage">
+        <section class="split-section">
+            <div class="container">
+                <div class="rc"><img src="rc.jpg" class="div_img">
+                    <div class="middle"><h1>Rock Climbing</h1></div>
+                </div>
+                <div class="title"><img src="title.jpg" class="div_img">
+                    <div class="middle"><h1>Our Division</h1></div>
+                </div>
+                <div class="gh"><img src="gh.jpg" class="div_img">
+                    <div class="middle"><h1>Gunung Hutan</h1></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="caving"><img src="caving.jpg" class="div_img">
+                    <div class="middle"><h1>Caving</h1></div>
+                </div>
+                <div class="ora"><img src="ora.jpg" class="div_img">
+                    <div class="middle"><h1>Olahraga Air</h1></div>
+                </div>
+                <div class="diving"><img src="diving.jpg" class="div_img">
+                    <div class="middle"><h1>Diving</h1></div>
+                </div>
+            </div>
+        </section>
+        <section class="empty"><h2>PAGE 2</h2></section>
+        <section class="empty"><h2>PAGE 3</h2></section>
+        <section class="empty"><h2>PAGE 4</h2></section>
+    </div>
+    <script type="text/javascript">
+		FastClick.attach(document.body);
+		$('#fullpage').fullpage();
+    </script>
+</body>
+</html>
